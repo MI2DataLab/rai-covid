@@ -1,0 +1,48 @@
+---
+title: Responsible Prediction Making of COVID-19 Mortality
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1100px;
+}
+
+.r2d3 {
+  position: relative !important;
+}
+</style>
+
+Landing page for the paper: Baniecki, H. and Biecek, P. **Responsible Prediction Making of COVID-19 Mortality (Student Abstract)** TBA
+
+
+# Abstract
+
+*For high-stake prediction making, the Responsible Artificial Intelligence (RAI) is more important than ever. It builds upon Explainable Artificial Intelligence (XAI) to advance the efforts in providing fairness, model explainability, and accountability to the AI systems. During the literature review of COVID-19 related prognosis and diagnosis, we found out that most of the predictive models are not faithful to the RAI principles, which can lead to biassed results and wrong reasoning. To solve this problem, we show how novel XAI techniques boost transparency, reproducibility and quality of models.*
+
+# Dashboard
+
+```{r echo=FALSE, R.options = list(width = 1200)}
+library(reticulate)
+explainer <- py_load_object("xgboost-explainer.pkl", pickle = "pickle")
+
+set.seed(0)
+local_obs <- explainer$data[sample(1:nrow(explainer$data), 5), ]
+rownames(local_obs) <- paste("id:", rownames(local_obs),
+                             "| pred:", 
+                             round(explainer$predict(local_obs), 4))
+
+library(modelStudio)
+modelStudio(explainer, local_obs, B = 15)
+```
+
+Code for this work is available at https://github.com/hbaniecki/Pre-Surv-COVID-19
+
+# Citation
+
+This paper is avaliable at TBA.
+
+```
+TBA
+```
