@@ -28,13 +28,16 @@ library(reticulate)
 explainer <- py_load_object("xgboost-explainer.pkl", pickle = "pickle")
 
 set.seed(0)
-local_obs <- explainer$data[sample(1:nrow(explainer$data), 5), ]
+local_obs <- explainer$data[c(213, 79, 105, 129, 167, 187, 198, 270, 289, 299, 307, 329, 330, 340, 365), ]
 rownames(local_obs) <- paste("id:", rownames(local_obs),
                              "| pred:", 
                              round(explainer$predict(local_obs), 4))
 
 library(modelStudio)
-modelStudio(explainer, local_obs, B = 15)
+modelStudio(explainer,
+            new_observation = local_obs,
+            B = factorial(dim(explainer$data)[2]),
+            license = "LICENSE")
 ```
 
 Code for this work is available at https://github.com/hbaniecki/Pre-Surv-COVID-19
