@@ -20,15 +20,20 @@ output: rmdformats::html_docco
 }
 }
 
+h1.title {
+    text-transform: none !important;
+}
+
 .r2d3 {
   position: relative !important;
 }
 </style>
 
-## Landing Page for:
+## Paper
 
 Baniecki, H. and Biecek, P. **Responsible Prediction Making of COVID-19 Mortality (Student Abstract)** TBA
 
+Available at TBA
 
 ## Abstract 
 
@@ -53,13 +58,12 @@ modelStudio(explainer,
             license = "LICENSE")
 ```
 
-## Paper
+## Citation
 
-This paper is available at TBA.
-To cite it, use the following BibTeX entry:
+To cite this work, use the following BibTeX entry:
 
 ```
 TBA
 ```
 
-Code for this work is available at https://github.com/hbaniecki/Pre-Surv-COVID-19
+Preliminary code for this work is available at https://github.com/hbaniecki/Pre-Surv-COVID-19
