@@ -39,6 +39,8 @@ Available at TBA
 
 *For high-stakes prediction making, the Responsible Artificial Intelligence (RAI) is more important than ever. It builds upon Explainable Artificial Intelligence (XAI) to advance the efforts in providing fairness, model explainability, and accountability to the AI systems. During the literature review of COVID-19 related prognosis and diagnosis, we found out that most of the predictive models are not faithful to the RAI principles, which can lead to biassed results and wrong reasoning. To solve this problem, we show how novel XAI techniques boost transparency, reproducibility and quality of models.* 
 
+<img src="https://raw.githubusercontent.com/ModelOriented/modelStudio/master/man/figures/long.gif" alt="modelStudio.gif" style="max-width:100%;">
+
 ## Dashboard <a class="github-button" href="https://github.com/MI2DataLab/rai-covid" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star MI2DataLab/rai-covid on GitHub">rai-covid</a>
 
 ```{r echo=FALSE, warning=FALSE}
