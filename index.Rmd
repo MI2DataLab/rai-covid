@@ -58,6 +58,10 @@ modelStudio(explainer,
             license = "LICENSE")
 ```
 
+Created using **modelStudio**: https://github.com/ModelOriented/modelStudio
+
+Preliminary code for this work is available: https://github.com/hbaniecki/Pre-Surv-COVID-19
+
 ## Citation
 
 To cite this work, use the following BibTeX entry:
@@ -65,5 +69,3 @@ To cite this work, use the following BibTeX entry:
 ```
 TBA
 ```
-
-Preliminary code for this work is available at https://github.com/hbaniecki/Pre-Surv-COVID-19
