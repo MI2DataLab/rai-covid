@@ -27,13 +27,17 @@ h1.title {
 .r2d3 {
   position: relative !important;
 }
+
+a {
+  color: #337ab7;
+}
 </style>
 
 ## Paper
 
 Baniecki, H. and Biecek, P. **Responsible Prediction Making of COVID-19 Mortality (Student Abstract)** TBA
 
-Available at TBA
+Available at https://www.aaai.org/AAAI21Papers/SA-299.BanieckiH.pdf
 
 ## Abstract 
 
