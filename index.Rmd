@@ -35,7 +35,7 @@ a {
 
 ## Paper
 
-Baniecki, H. and Biecek, P. **Responsible Prediction Making of COVID-19 Mortality (Student Abstract)** TBA
+Baniecki, H., and Biecek, P. **Responsible Prediction Making of COVID-19 Mortality (Student Abstract)** *(to appear in) Proceedings of the AAAI Conference on Artificial Intelligence* 2021
 
 Available at https://www.aaai.org/AAAI21Papers/SA-299.BanieckiH.pdf
 
