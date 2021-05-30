@@ -35,13 +35,13 @@ a {
 
 ## Paper
 
-Baniecki, H., and Biecek, P. **Responsible Prediction Making of COVID-19 Mortality (Student Abstract)** *(to appear in) Proceedings of the AAAI Conference on Artificial Intelligence* 2021
+Baniecki, H., and Biecek, P. **Responsible Prediction Making of COVID-19 Mortality (Student Abstract)**  
+*AAAI Conference on Artificial Intelligence (AAAI)* 2021 URL: https://ojs.aaai.org/index.php/AAAI/article/view/17874
 
-Available at https://www.aaai.org/AAAI21Papers/SA-299.BanieckiH.pdf
 
 ## Abstract 
 
-*For high-stakes prediction making, the Responsible Artificial Intelligence (RAI) is more important than ever. It builds upon Explainable Artificial Intelligence (XAI) to advance the efforts in providing fairness, model explainability, and accountability to the AI systems. During the literature review of COVID-19 related prognosis and diagnosis, we found out that most of the predictive models are not faithful to the RAI principles, which can lead to biassed results and wrong reasoning. To solve this problem, we show how novel XAI techniques boost transparency, reproducibility and quality of models.* 
+> For high-stakes prediction making, the Responsible Artificial Intelligence (RAI) is more important than ever. It builds upon Explainable Artificial Intelligence (XAI) to advance the efforts in providing fairness, model explainability, and accountability to the AI systems. During the literature review of COVID-19 related prognosis and diagnosis, we found out that most of the predictive models are not faithful to the RAI principles, which can lead to biassed results and wrong reasoning. To solve this problem, we show how novel XAI techniques boost transparency, reproducibility and quality of models.
 
 <img src="https://raw.githubusercontent.com/ModelOriented/modelStudio/master/man/figures/long.gif" alt="modelStudio.gif" style="max-width:100%;">
 
@@ -73,5 +73,11 @@ Preliminary code for this work is available: https://github.com/hbaniecki/Pre-Su
 To cite this work, use the following BibTeX entry:
 
 ```
-TBA
+@article{rai-covid,
+  title={{Responsible Prediction Making of COVID-19 Mortality (Student Abstract)}},
+  author={Baniecki, Hubert and Biecek, Przemyslaw},
+  journal={AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2021},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/17874}
+}
 ```
